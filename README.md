@@ -1,6 +1,6 @@
 # AudioAssignment
 
-##Student Info
+# Student Info
 
 Student Name: Maciej Kostka
 
@@ -14,7 +14,7 @@ Lecturer: Brian Duggan
 
 Date: 07 / 05 / 2021
 
-##What My Assignment Does
+# What My Assignment Does
 
 My assignment has two options, number 1 and number 2, controlled by the **keyPressed** function.
 
@@ -36,7 +36,7 @@ The random orbit speed is added to the rotation which is a random value in the r
 When the stars are on, I draw 512 ellipses randomly on the screen. The stars are drawn in 2D, but I simulate a 3D environment by making the ellipses z position a random value between 0 and width. I then loop through the ellipses, increasing their z position by adding the frequency of the music to it. This makes the ellipse go outwards, and eventually off screen, giving the illusion it went behind us. When a stars z position is less than 1, we reset it to it's starting position and loop throgugh it again. This allows us to reuse the stars and avoid drawing an infinite or very large amount unnecessarily. In order to further simulate 3D, I map the z position of the star relative to the width of the screen between the values of 0 and 2. If the z value is small, the value will be closer to 2. If the z value is large, value will be closer to 0. We use this value as the radius of the ellipse, which makes them larger when they're clsoer and smaller when they're far away. 
 
 
-##What the Controls Are
+# What the Controls Are
 
 Controls are as follows
 
@@ -67,11 +67,11 @@ _***KeyPad***_
 > Click and move mouse or touchpad to see planets from different angles when stars are turned off.
 > Double-click to reset camera to original position
 
-##How to Make it Run
+# How to Make it Run
 
 To run, open sketch in processing 4 and press **Run** in the top left hand corner. 
 
-##Stuff I'm Most Proud of
+# Stuff I'm Most Proud of
 
 * Making the Terrain react to the music change smoothly.
 * Understanding and applying recusrion to create the planets.
@@ -79,6 +79,6 @@ To run, open sketch in processing 4 and press **Run** in the top left hand corne
 * Switching between different modes of colors, rotations, etc. using buttons.
 
 
-##References
+# References
 
 TheCodingTrain youtube channel
